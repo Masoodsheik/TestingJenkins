@@ -1,0 +1,7 @@
+baseUrl = https://opensource-demo.orangehrmlive.com
+browsername = firefox
+pageTitle = OrangeHRM
+chromepath=./Driver\\chromedriver.exe
+firefoxpath=./Driver\\geckodriver.exe
+username=Admin
+password=admin123

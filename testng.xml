@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GeicoSuite">
+	<listeners>
+	
+		<listener class-name="utilities.Reporting"></listener>
+	</listeners>
+  <test name="GeicoTest">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+ 		    <!-- <class name="com.Geico.TC_Login"/> -->
+ 		        <class name="com.Geico.TC01_LoginExcel"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
