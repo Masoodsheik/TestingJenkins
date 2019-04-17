@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-GeicoSuite">
-              <span class="suite-name border-failed">GeicoSuite</span>
+              <span class="suite-name border-passed">GeicoSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-GeicoSuite">
-                    <span>D:\Geico\testng.xml</span>
+                    <span>C:\Users\Masood\git\TestingJenkins\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-GeicoSuite" class="hide-methods failed suite-GeicoSuite"> (hide)</a> <!-- hide-methods failed suite-GeicoSuite -->
-                      <a href="#" panel-name="suite-GeicoSuite" class="show-methods failed suite-GeicoSuite"> (show)</a> <!-- show-methods failed suite-GeicoSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-GeicoSuite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-GeicoSuite" title="com.Geico.TC01_LoginExcel" hash-for-method="LoginDDT(Admin, admin23)">LoginDDT(Admin, admin23)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-GeicoSuite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,7 @@
                     <div class="method-list-content passed suite-GeicoSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-GeicoSuite" title="com.Geico.TC01_LoginExcel" hash-for-method="LoginDDT(Admin, admin123)">LoginDDT(Admin, admin123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-GeicoSuite" title="com.Geico.TC_Login" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-GeicoSuite -->
@@ -131,59 +117,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-GeicoSuite" class="panel GeicoSuite">
-          <div class="suite-GeicoSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.Geico.TC01_LoginExcel</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginDDT(Admin, admin23)">
-                  </a> <!-- LoginDDT(Admin, admin23) -->
-                  <span class="method-name">LoginDDT</span>
-                  <span class="parameters">(Admin, admin23)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #txtUsername
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
-System info: host: &apos;DESKTOP-E9QP468&apos;, ip: &apos;192.168.120.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13964, moz:profile: C:\Users\home\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a85b26f9-df90-400a-9f94-e66151c8b4b0
-*** Element info: {Using=id, value=txtUsername}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-	at PageObjects.LoginPage.SetUserName(LoginPage.java:29)
-	at com.Geico.TC01_LoginExcel.LoginDDT(TC01_LoginExcel.java:19)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GeicoSuite-class-failed -->
           <div class="suite-GeicoSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Geico.TC01_LoginExcel</span>
+              <span class="class-name">com.Geico.TC_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginDDT(Admin, admin123)">
-                  </a> <!-- LoginDDT(Admin, admin123) -->
-                  <span class="method-name">LoginDDT</span>
-                  <span class="parameters">(Admin, admin123)</span>
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,7 +135,7 @@ Session ID: a85b26f9-df90-400a-9f94-e66151c8b4b0
         </div> <!-- panel GeicoSuite -->
         <div panel-name="test-xml-GeicoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Geico\testng.xml</span>
+            <span class="header-content">C:\Users\Masood\git\TestingJenkins\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -204,7 +148,7 @@ Session ID: a85b26f9-df90-400a-9f94-e66151c8b4b0
   &lt;test thread-count=&quot;5&quot; name=&quot;GeicoTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Geico.TC01_LoginExcel&quot;/&gt;
+      &lt;class name=&quot;com.Geico.TC_Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GeicoTest --&gt;
 &lt;/suite&gt; &lt;!-- GeicoSuite --&gt;
@@ -244,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginDDT')
-data.setCell(0, 2, 'com.Geico.TC01_LoginExcel')
-data.setCell(0, 3, 5038);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginDDT')
-data.setCell(1, 2, 'com.Geico.TC01_LoginExcel')
-data.setCell(1, 3, 3000);
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.Geico.TC_Login')
+data.setCell(0, 3, 3420);
 window.suiteTableData['GeicoSuite']= { tableData: data, tableDiv: 'times-div-GeicoSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-GeicoSuite">
               </div> <!-- times-div-GeicoSuite -->
             </div> <!-- times-div -->
@@ -283,24 +223,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Geico.TC01_LoginExcel</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Geico.TC_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">LoginDDT(Admin, admin123)</span>
-                <span class="method-start">12914 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LoginDDT(Admin, admin23)</span>
-                <span class="method-start">15938 ms</span>
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">8768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">20984 ms</span>
+                <span class="method-start">12204 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

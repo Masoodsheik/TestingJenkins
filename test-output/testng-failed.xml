@@ -11,7 +11,7 @@
         <methods>
           <include name="setUp"/>
           <include name="teardown"/>
-          <include name="LoginDDT" invocation-numbers="1"/>
+          <include name="LoginDDT"/>
         </methods>
       </class> <!-- com.Geico.TC01_LoginExcel -->
     </classes>

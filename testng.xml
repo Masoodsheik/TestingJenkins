@@ -8,8 +8,8 @@
   <test name="GeicoTest">
   <parameter name="browser" value="firefox"/>
     <classes>
- 		    <!-- <class name="com.Geico.TC_Login"/> -->
- 		        <class name="com.Geico.TC01_LoginExcel"/>
+ 		     <class name="com.Geico.TC_Login"/> 
+ 		    <!--    <class name="com.Geico.TC01_LoginExcel"/>-->
         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

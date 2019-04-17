@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="GeicoSuite" duration-ms="30096" started-at="2019-04-11T13:31:45Z" finished-at="2019-04-11T13:32:15Z">
+  <suite name="GeicoSuite" duration-ms="13533" started-at="2019-04-17T08:50:18Z" finished-at="2019-04-17T08:50:32Z">
     <groups>
     </groups>
-    <test name="GeicoTest" duration-ms="30096" started-at="2019-04-11T13:31:45Z" finished-at="2019-04-11T13:32:15Z">
-      <class name="com.Geico.TC01_LoginExcel">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.Geico.TC01_LoginExcel@f6c48ac]" name="setUp" is-config="true" duration-ms="11727" started-at="2019-04-11T13:31:45Z" finished-at="2019-04-11T13:31:57Z">
+    <test name="GeicoTest" duration-ms="13533" started-at="2019-04-17T08:50:18Z" finished-at="2019-04-17T08:50:32Z">
+      <class name="com.Geico.TC_Login">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.Geico.TC_Login@42e26948]" name="setUp" is-config="true" duration-ms="8763" started-at="2019-04-17T08:50:18Z" finished-at="2019-04-17T08:50:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,110 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.Geico.TC01_LoginExcel@f6c48ac]" name="LoginDDT" duration-ms="3000" started-at="2019-04-11T13:31:58Z" data-provider="LoginData" finished-at="2019-04-11T13:32:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.Geico.TC_Login@42e26948]" name="LoginTest" duration-ms="3420" started-at="2019-04-17T08:50:27Z" finished-at="2019-04-17T08:50:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method status="FAIL" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.Geico.TC01_LoginExcel@f6c48ac]" name="LoginDDT" duration-ms="5038" started-at="2019-04-11T13:32:01Z" data-provider="LoginData" finished-at="2019-04-11T13:32:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin23]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: #txtUsername
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'DESKTOP-E9QP468', ip: '192.168.120.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13964, moz:profile: C:\Users\home\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a85b26f9-df90-400a-9f94-e66151c8b4b0
-*** Element info: {Using=id, value=txtUsername}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #txtUsername
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'DESKTOP-E9QP468', ip: '192.168.120.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13964, moz:profile: C:\Users\home\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a85b26f9-df90-400a-9f94-e66151c8b4b0
-*** Element info: {Using=id, value=txtUsername}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
-at org.openqa.selenium.By$ById.findElement(By.java:218)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-at PageObjects.LoginPage.SetUserName(LoginPage.java:29)
-at com.Geico.TC01_LoginExcel.LoginDDT(TC01_LoginExcel.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Geico.TC01_LoginExcel@f6c48ac]" name="teardown" is-config="true" duration-ms="8824" started-at="2019-04-11T13:32:06Z" finished-at="2019-04-11T13:32:15Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Geico.TC_Login@42e26948]" name="teardown" is-config="true" duration-ms="1165" started-at="2019-04-17T08:50:30Z" finished-at="2019-04-17T08:50:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.Geico.TC01_LoginExcel -->
+      </class> <!-- com.Geico.TC_Login -->
     </test> <!-- GeicoTest -->
   </suite> <!-- GeicoSuite -->
 </testng-results>
