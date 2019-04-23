@@ -3,7 +3,7 @@ package com.Geico;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
-import junit.framework.Assert;
+
 
 public class TC_Login extends Baseclass {
 
@@ -21,12 +21,12 @@ public class TC_Login extends Baseclass {
 		logger.info("Application is successfully login");
 		if (driver.getTitle().equalsIgnoreCase(pageTitle)) {
 
-			Assert.assertTrue(true);
+		//	Assert.assertTrue(true);
 			logger.info("Login Test Passed");
 
 		} else {
 			CaptureScreenshot(driver, "LoginTest");
-			Assert.assertTrue(true);
+			//Assert.assertTrue(true);
 			logger.info("Login test fail");
 		}
 
